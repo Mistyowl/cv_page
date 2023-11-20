@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV | (●'◡'●)</title>
+</head>
+<body>
+    <header>
+        <img src="img/avatar.png" alt="My photo" class="avatar">
+        <h1 class="title__main">
+            Artyom Medin | CV
+        </h1>
+        <h2 class="title__subtitle">
+            3D Artist | 3D Design | Junior Frontend Developer
+        </h2>
+    </header>
+    <main>
+        <section class="Skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ol class="skills__ul">
+                    <li>1. Blender</li>
+                    <li>2. Adobe Substance Panter 3D</li>
+                    <li>3. ZBrush</li>
+                    <li>4. Unity</li>
+                    <li>5. Frontend</li>
+                    <li>6. Figma</li>
+                </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h4>Article about me</h4>
+            <p>
+                Артем Медин — преподаватель дополнительного образования в IT Cube, увлекающийся 3D-моделированием, дизайном и Frontend-версткой. Его опыт и приверженность в этих областях делают его бесценным активом, вдохновляющим ребят и способствующим развитию образовательных программ в области технологий и дизайна. Многогранные интересы и профессиональные навыки Артема отражают стремление к инновациям и распространению знаний.
+            </p>
+        </article>
+        <section class="gallery">
+            <h3>My arts</h3>
+            <img src="img/gallery_1.jpg" alt="Art #1" class="gallery__img">
+            <img src="img/gallery_2.jpg" alt="Art #2" class="gallery__img">
+            <img src="img/gallery_3.jpg" alt="Art #3" class="gallery__img">
+        </section>
+        <hr class="separator">
+        <section class="model">
+            <iframe title="Smol Ame in an Upcycled Terrarium [HololiveEn]" allowfullscreen allow="autoplay; fullscreen;" width="640" height="480" src="https://sketchfab.com/models/490cecc249d242188fda5ad3160a4b24/embed?autostart=1&dnt=1"></iframe>
+        </section>
+        <section class="hobbies">
+            <h3>My hobbies:</h3>
+            <details>
+                <summary>Hobbies:</summary>
+                <ul>
+                    <li>Play old Games</li>
+                    <li>3D Printing</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </details>
+        </section>
+        <section class="education">
+            <h3>Education</h3>
+            <table class="education__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DIT</td>
+                        <td>Tech. Programmer</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Saint Petersburg (ООО "ЦНОИ")</td>
+                        <td>Additional Teacher</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>Orel "Кибердром"</td>
+                        <td>Удостоверение оператора БПЛА</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Lipetsk "Сириус"</td>
+                        <td>Additional Teacher up qualification</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="quote">
+            <blockquote>
+                Дизайн ничто, функционал всё!
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <form action="https://ya.ru/" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Required fields:</legend>
+                    <label for="firstNameID">First Name:</label>
+                    <input type="text" name="firstName" id="firstNameID" class="form__control" required placeholder="First Name">
+                    <label for="secondNameID">Second Name:</label>
+                    <input type="text" name="secondName" id="secondNameID" class="form__control" required placeholder="Second Name">
+                    <label for="emailID">Email:</label>
+                    <input type="email" name="email" id="emailID" class="form__control" required placeholder="Email Name">
+                </fieldset>
+                <textarea name="questions" id="questionsID" cols="60" rows="4" class="form__qustions" placeholder="your questions..."></textarea>
+                <button type="submit" class="form__submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <address class="contacts">
+            <br>
+            <a href="mailto:artyom.medin@gmail.com" class="contacts__link">artyom.medin@gmail.com</a>
+            <br><br>
+            <a href="tel:+79056679598" class="contacts__link">+79056679598</a>
+        </address>
+    </footer>
+</body>
+</html>

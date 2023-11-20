@@ -1,0 +1,112 @@
+body {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #CCCCFF;
+}
+
+header {
+    text-align: center;
+}
+
+.avatar {
+    width: 300px;
+    height: 289px;
+    border-radius: 5px;
+}
+
+.title__main {
+    font-size: 24px;
+}
+
+.title__subtitle {
+    font-size: 18px;
+    color: #000049;
+}
+
+main {
+    border: 1px solid #000049;
+    padding: 12px;
+    text-align: center;
+}
+
+.skills__ul{
+    text-align: center;
+}
+
+.skills__ul li {
+    list-style: none;
+}
+
+.gallery {
+    display: block;
+}
+
+.gallery__img {
+    height: 400px;
+}
+
+.separator {
+    width: 100%;
+    height: 5px;
+}
+
+.model iframe{
+    border: none;
+}
+
+.education__table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.education__table th,
+.education__table td {
+    padding: 16px;
+    border: 1px solid black;
+}
+
+.quote {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.form {
+    width: 580px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form__control {
+    width: 100%;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.form__qustions {
+    width: 97%;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: mediumpurple;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts__link {
+    color: black;
+    font-weight: 700;
+}
