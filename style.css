@@ -52,6 +52,9 @@ main {
 
 .model iframe{
     border: none;
+    width: 100%;
+    max-width: 640px;
+    height: 480px;
 }
 
 .education__table {
@@ -72,7 +75,8 @@ main {
 }
 
 .form {
-    width: 580px;
+    width: 100%;
+    max-width: 580px;
     display: block;
     margin: 0 auto;
 }
